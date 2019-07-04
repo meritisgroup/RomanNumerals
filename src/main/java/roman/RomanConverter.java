@@ -6,7 +6,7 @@ import java.util.List;
 
 public class RomanConverter {
 
-	static enum RomanLiteral {
+	private enum RomanLiteral {
 		I(1),
 		IV(4),
 		V(5),
