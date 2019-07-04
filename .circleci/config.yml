@@ -5,7 +5,7 @@ jobs:
   build:
     working_directory: ~/roman
     docker:
-      - image: openjdk:12-jdk
+      - image: codeaches/openjdk:12-jdk
     steps:
       - checkout
       - run: mvn clean test
