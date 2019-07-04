@@ -15,5 +15,8 @@ jobs:
           paths:
             - ~/.m2
           key: circleci-roman-kata-{{ checksum "pom.xml" }}
+      - store_artifacts:
+          path: target/surefire-reports
+          destination: tr1
       - store_test_results:
           path: target/surefire-reports
