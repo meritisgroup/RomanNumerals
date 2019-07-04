@@ -8,6 +8,12 @@ jobs:
       - image: codeaches/openjdk:12-jdk
     steps:
       - checkout
+      - restore_cache:
+          key: circleci-roman-kata-{{ checksum "pom.xml" }}
       - run: mvn clean test
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: circleci-roman-kata-{{ checksum "pom.xml" }}
       - store_test_results:
           path: target/surefire-reports
