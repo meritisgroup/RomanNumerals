@@ -10,7 +10,7 @@ jobs:
       - checkout
       - restore_cache:
           key: circleci-roman-kata-{{ checksum "pom.xml" }}
-      - run: mvn clean test
+      - run: mvn clean test jacoco:report coveralls:report
       - save_cache:
           paths:
             - ~/.m2
