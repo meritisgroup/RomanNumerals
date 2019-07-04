@@ -9,3 +9,5 @@ jobs:
     steps:
       - checkout
       - run: mvn clean test
+      - store_test_results:
+        path: target/surefire-reports
