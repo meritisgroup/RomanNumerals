@@ -5,7 +5,7 @@ jobs:
   build:
     working_directory: ~/roman
     docker:
-      - image: circleci/openjdk:latest
+      - image: openjdk:12-jdk
     steps:
       - checkout
       - run: mvn clean test
