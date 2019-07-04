@@ -5,7 +5,7 @@ jobs:
   build:
     working_directory: ~/roman
     docker:
-      - image: codeaches/openjdk:8-jdk
+      - image: codeaches/openjdk:12-jdk
     steps:
       - checkout
       - restore_cache:
