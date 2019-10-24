@@ -17,10 +17,15 @@ On peut trouver la spécification de l'écriture sur [wikipédia](https://fr.wik
 Expérimenter la démarche du TDD (test driven developpement)
 
 # Citations
+
 "Il y a une minute, tous les codes des participants fonctionnaient"
+
 "Tous les codes produits sont testables par définition"
+
 "On a une documentation exécutable"
+
 "On a un harnais de sécurité pour le refactoring"
+
 
 # Test Unitaire
 **F.I.R.S.T**
