@@ -24,11 +24,17 @@ Expérimenter la démarche du TDD (test driven developpement)
 
 # Test Unitaire
 **F.I.R.S.T**
+
 ***F*** Fast (rapide)
+
 ***I*** Independant (ou Isolated isolé) lien avec 3A (Arrange, Act, Assert)
+
 ***R*** Repeatable ( répétable, ne dépend pas de l'environnement )
+
 ***S*** Self validating ( auto - validant)
+
 ***T*** Timely ( au bon moment, juste après ou avant le code) 
+
 
 **Un test n'est pas un Test Unitaire si:**
  - Interroge la base de données
