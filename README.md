@@ -11,7 +11,7 @@ Sources produite lors du kata vidéo
 
 # Sujet
 Ecrire un convertisseur de nombres en chiffres romains.
-On peut trouver la spécification de l'écriture sur [wikipédia]([https://fr.wikipedia.org/wiki/Num%C3%A9ration_romaine](https://fr.wikipedia.org/wiki/Num%C3%A9ration_romaine))
+On peut trouver la spécification de l'écriture sur [wikipédia](https://fr.wikipedia.org/wiki/Num%C3%A9ration_romaine)
 
 # Objectifs
 Expérimenter la démarche du TDD (test driven developpement)
@@ -65,7 +65,7 @@ Red -> Green -> Refactor
  - Clean architecture
 
 # Transformations autorisées
-[UncleBob]([https://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html](https://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html))
+[UncleBob](https://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
 
 Nécessaire pour construire un chemin d'étapes en _baby steps_
 
