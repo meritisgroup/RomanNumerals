@@ -53,8 +53,11 @@ Expérimenter la démarche du TDD (test driven developpement)
 Couplage comportement _vs_ couplage structure
 
  - Tests sociables ou non
+ 
  -- sociable => école classique, Détroit
+ 
  -- non sociable => école mockist, London  
+ 
 >   _Martin Fowler_
 
 # Cycle TDD
@@ -67,6 +70,7 @@ Red -> Green -> Refactor
 ## Cycles
 ### Minute par minute
  - Ecriture de code motivé  _par design_ par les besoins exprimés par les tests
+ 
 ### Dizaine de minutes
  - Tests de plus en plus spécifiques
  - Code de plus en plus générique
