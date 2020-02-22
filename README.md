@@ -7,6 +7,9 @@
 
 
 Sources produite lors du kata vidéo
+https://www.youtube.com/watch?v=uWlSvLV5ygI
+
+Un article plus complet https://meritis.fr/programmation/pratique-du-tdd-comment-convertir-des-chiffres-en-nombres-romains/
 
 
 # Sujet
